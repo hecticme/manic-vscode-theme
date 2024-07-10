@@ -34,5 +34,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "packageManager": "pnpm@9.5.0",
+  "devDependencies": {
+    "eslint": "^9.6.0"
   }
 }
