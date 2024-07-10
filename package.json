@@ -34,6 +34,7 @@
   "type": "module",
   "scripts": {
     "build": "node src/index.js",
+    "publish": "npm run build && vsce publish",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
