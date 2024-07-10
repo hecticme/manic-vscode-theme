@@ -33,6 +33,7 @@
   "homepage": "https://github.com/hecticme/manic-vscode-theme#readme",
   "type": "module",
   "scripts": {
+    "build": "node src/index.js",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
