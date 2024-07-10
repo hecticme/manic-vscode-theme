@@ -1,0 +1,38 @@
+{
+  "publisher": "hecticme",
+  "author": "H. Ngọc Minh",
+  "name": "manic-theme",
+  "displayName": "Manic Theme",
+  "description": "An abnormal VSCode theme",
+  "version": "0.0.0",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "manic",
+    "hecticme",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Manic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/manic.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecticme/manic-vscode-theme.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hecticme/manic-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/hecticme/manic-vscode-theme#readme",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
