@@ -33,6 +33,7 @@
   "homepage": "https://github.com/hecticme/manic-vscode-theme#readme",
   "type": "module",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "packageManager": "pnpm@9.5.0",
