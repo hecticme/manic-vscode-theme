@@ -1,3 +1,8 @@
 export const manicColors = {
-  // ...
+  border: {
+    bright: '#f8f8f2',
+    soft: '#525252',
+    dim: '#a3a3a3',
+    dark: '#363636',
+  },
 }
