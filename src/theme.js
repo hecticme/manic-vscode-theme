@@ -1,3 +1,7 @@
+import {
+  manicColors as colors,
+} from './colors.js'
+
 export const manicTheme = {
   name: 'Manic',
   $schema: 'vscode://schemas/color-theme',
@@ -849,7 +853,18 @@ export const manicTheme = {
     {
       scope: 'comment',
       settings: {
-        foreground: '#6A9955',
+        foreground: colors.token.comment,
+        fontStyle: 'italic',
+      },
+    },
+    {
+      scope: [
+        'storage.type.class.jsdoc',
+        'entity.name.type.instance.jsdoc',
+        'variable.other.jsdoc',
+      ],
+      settings: {
+        fontStyle: '',
       },
     },
     {

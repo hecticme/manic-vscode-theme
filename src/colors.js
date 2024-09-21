@@ -5,4 +5,7 @@ export const manicColors = {
     dim: '#a3a3a3',
     dark: '#363636',
   },
+  token: {
+    comment: '#7f848e',
+  },
 }
