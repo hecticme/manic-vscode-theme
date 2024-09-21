@@ -5,6 +5,9 @@
   "displayName": "Manic Theme",
   "description": "An abnormal VSCode theme",
   "version": "0.0.0",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
   "categories": [
     "Themes"
   ],
