@@ -1,12 +1,17 @@
 export const manicColors = {
+  transparent: '#0000',
+  accent: '#ebebeb',
   background: {
     editor: '#202024',
     sideBar: '#242428',
     toolbar: '#2b2b2f',
+    widget: '#222226',
+    input: '#303034',
   },
   foreground: {
     editor: '#f8f8f2',
-    toolbar: '#ccc',
+    toolbar: '#cccccc',
+    contrast: '#202024',
   },
   border: {
     main: '#3d3d40',
