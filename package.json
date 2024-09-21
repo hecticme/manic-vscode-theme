@@ -36,6 +36,7 @@
   "homepage": "https://github.com/hecticme/manic-vscode-theme#readme",
   "type": "module",
   "scripts": {
+    "dev": "nodemon --watch src src/index.js",
     "build": "node src/index.js",
     "publish": "npm run build && vsce publish",
     "lint": "eslint .",
