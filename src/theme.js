@@ -42,6 +42,7 @@ export const manicTheme = {
     'editor.findMatchBackground': '#9e6a03',
     'editor.foreground': colors.foreground.editor,
     'editor.inactiveSelectionBackground': '#3a3d41',
+    'editor.lineHighlightBackground': hexWithAlpha(colors.accent, 0.05),
     'editor.selectionHighlightBackground': '#add6ff26',
     'editorGroup.border': colors.border.main,
     'editorGroupHeader.tabsBackground': colors.background.sideBar,
