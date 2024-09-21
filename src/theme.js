@@ -149,7 +149,7 @@ export const manicTheme = {
     'tab.unfocusedHoverBackground': hexWithAlpha(colors.background.editor, 0.7),
     'terminal.foreground': colors.foreground.toolbar,
     'terminal.inactiveSelectionBackground': '#3a3d41',
-    'terminal.tab.activeBorder': '#0078d4',
+    'terminal.tab.activeBorder': colors.accent,
     'textBlockQuote.background': colors.border.main,
     'textBlockQuote.border': '#616161',
     'textCodeBlock.background': colors.border.main,
