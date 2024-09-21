@@ -1270,7 +1270,8 @@ export const manicTheme = {
         'entity.name.operator',
       ],
       settings: {
-        foreground: '#C586C0',
+        foreground: colors.token.keyword,
+        fontStyle: 'italic',
       },
     },
     {
