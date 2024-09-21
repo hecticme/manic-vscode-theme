@@ -322,7 +322,7 @@ export const manicTheme = {
     {
       scope: 'markup.deleted',
       settings: {
-        foreground: '#CE9178',
+        foreground: colors.token.string,
       },
     },
     {
@@ -346,7 +346,7 @@ export const manicTheme = {
     {
       scope: 'markup.inline.raw',
       settings: {
-        foreground: '#CE9178',
+        foreground: colors.token.string,
       },
     },
     {
@@ -367,7 +367,7 @@ export const manicTheme = {
     {
       scope: 'meta.preprocessor.string',
       settings: {
-        foreground: '#CE9178',
+        foreground: colors.token.string,
       },
     },
     {
@@ -415,19 +415,19 @@ export const manicTheme = {
         'meta.embedded.assembly',
       ],
       settings: {
-        foreground: '#CE9178',
+        foreground: colors.token.string,
       },
     },
     {
       scope: 'string.tag',
       settings: {
-        foreground: '#CE9178',
+        foreground: colors.token.string,
       },
     },
     {
       scope: 'string.value',
       settings: {
-        foreground: '#CE9178',
+        foreground: colors.token.string,
       },
     },
     {
@@ -662,7 +662,7 @@ export const manicTheme = {
         'support.constant.color',
       ],
       settings: {
-        foreground: '#CE9178',
+        foreground: colors.token.string,
       },
     },
     {
@@ -676,7 +676,7 @@ export const manicTheme = {
         'support.other.parenthesis.regexp',
       ],
       settings: {
-        foreground: '#CE9178',
+        foreground: colors.token.string,
       },
     },
     {
