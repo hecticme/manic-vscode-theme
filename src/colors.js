@@ -7,5 +7,6 @@ export const manicColors = {
   },
   token: {
     comment: '#7f848e',
+    class: '#34d399',
   },
 }

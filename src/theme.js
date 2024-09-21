@@ -1243,7 +1243,7 @@ export const manicTheme = {
         'storage.type.primitive.groovy',
       ],
       settings: {
-        foreground: '#4EC9B0',
+        foreground: colors.token.class,
       },
     },
     {
@@ -1256,7 +1256,7 @@ export const manicTheme = {
         'entity.other.inherited-class',
       ],
       settings: {
-        foreground: '#4EC9B0',
+        foreground: colors.token.class,
       },
     },
     {
