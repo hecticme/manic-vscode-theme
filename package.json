@@ -38,7 +38,7 @@
   "scripts": {
     "dev": "nodemon --watch src src/index.js",
     "build": "node src/index.js",
-    "publish": "npm run build && vsce publish",
+    "publish": "pnpm run build && vsce publish",
     "lint": "eslint ."
   },
   "packageManager": "pnpm@9.5.0",
