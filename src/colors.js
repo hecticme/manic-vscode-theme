@@ -1,4 +1,7 @@
 export const manicColors = {
+  foreground: {
+    editor: '#f8f8f2',
+  },
   border: {
     bright: '#f8f8f2',
     soft: '#525252',

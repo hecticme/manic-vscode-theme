@@ -36,7 +36,7 @@ export const manicTheme = {
     'dropdown.listBackground': '#1f1f1f',
     'editor.background': '#1f1f1f',
     'editor.findMatchBackground': '#9e6a03',
-    'editor.foreground': '#cccccc',
+    'editor.foreground': colors.foreground.editor,
     'editor.inactiveSelectionBackground': '#3a3d41',
     'editor.selectionHighlightBackground': '#add6ff26',
     'editorGroup.border': '#ffffff17',
