@@ -76,6 +76,8 @@ export const manicTheme = {
     'list.activeSelectionBackground': hexWithAlpha(colors.accent, 0.1),
     'list.activeSelectionIconForeground': colors.foreground.editor,
     'list.hoverBackground': hexWithAlpha(colors.accent, 0.1),
+    'list.focusHighlightForeground': colors.foreground.contrast,
+    'list.highlightForeground': colors.accent,
     'list.dropBackground': '#383b3d',
     'menu.background': colors.background.sideBar,
     'menu.border': colors.border.main,
