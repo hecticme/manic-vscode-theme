@@ -51,7 +51,7 @@ export const manicTheme = {
     'editorLineNumber.activeForeground': colors.foreground.toolbar,
     'editorLineNumber.foreground': hexWithAlpha(colors.foreground.toolbar, 0.4),
     'editorOverviewRuler.border': colors.border.main,
-    'editorRuler.foreground': colors.transparent,
+    'editorRuler.foreground': hexWithAlpha(colors.border.main, 0.5),
     'editorWidget.border': colors.border.main,
     'editorSuggestWidget.background': colors.background.sideBar,
     'editorSuggestWidget.focusHighlightForeground': colors.foreground.contrast,
