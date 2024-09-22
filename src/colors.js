@@ -24,5 +24,6 @@ export const manicColors = {
     string: '#c3e88d',
     invalid: '#f44747',
     tag: '#df6273',
+    attribute: '#dfc86d',
   },
 }

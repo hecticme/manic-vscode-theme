@@ -252,7 +252,7 @@ export const manicTheme = {
     {
       scope: 'entity.other.attribute-name',
       settings: {
-        foreground: '#9CDCFE',
+        foreground: colors.token.attribute,
       },
     },
     {
@@ -268,7 +268,7 @@ export const manicTheme = {
         'entity.other.attribute-name.scss',
       ],
       settings: {
-        foreground: '#D7BA7D',
+        foreground: colors.token.attribute,
       },
     },
     {
