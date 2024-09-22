@@ -225,7 +225,7 @@ export const manicTheme = {
         'keyword.operator.minus.exponent',
       ],
       settings: {
-        foreground: '#B5CEA8',
+        foreground: colors.token.numeric,
       },
     },
     {
@@ -312,7 +312,7 @@ export const manicTheme = {
     {
       scope: 'markup.inserted',
       settings: {
-        foreground: '#B5CEA8',
+        foreground: colors.token.markup,
       },
     },
     {
@@ -357,7 +357,7 @@ export const manicTheme = {
         'entity.name.function.preprocessor',
       ],
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.token.meta,
       },
     },
     {
@@ -369,7 +369,7 @@ export const manicTheme = {
     {
       scope: 'meta.preprocessor.numeric',
       settings: {
-        foreground: '#B5CEA8',
+        foreground: colors.token.meta,
       },
     },
     {
@@ -387,13 +387,14 @@ export const manicTheme = {
     {
       scope: 'storage',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.token.storage,
       },
     },
     {
       scope: 'storage.type',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.token.storageType,
+        fontStyle: 'italic',
       },
     },
     {
@@ -402,7 +403,7 @@ export const manicTheme = {
         'keyword.operator.noexcept',
       ],
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.token.storage,
       },
     },
     {
@@ -458,7 +459,7 @@ export const manicTheme = {
         'source.coffee.embedded',
       ],
       settings: {
-        foreground: '#9CDCFE',
+        foreground: colors.token.property,
       },
     },
     {
@@ -636,7 +637,14 @@ export const manicTheme = {
         'variable.other.enummember',
       ],
       settings: {
-        foreground: colors.token.variableConstant,
+        foreground: colors.token.constant,
+      },
+    },
+    {
+      scope: 'variable.parameter',
+      settings: {
+        foreground: colors.token.parameter,
+        fontStyle: 'italic',
       },
     },
     {
@@ -707,7 +715,7 @@ export const manicTheme = {
         'constant.other.option',
       ],
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.token.constant,
       },
     },
     {
