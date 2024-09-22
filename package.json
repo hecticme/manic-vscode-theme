@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@hecticme/eslint-config": "^0.0.0",
-    "@vscode/vsce": "^2.29.0",
+    "@vscode/vsce": "^3.1.0",
     "eslint": "^9.6.0",
     "nodemon": "^3.1.7"
   }
