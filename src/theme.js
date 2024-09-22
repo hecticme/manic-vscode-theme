@@ -1,9 +1,5 @@
-import {
-  manicColors as colors,
-} from './colors.js'
-import {
-  hexWithAlpha,
-} from './utils.js'
+import { manicColors as colors } from './colors.js'
+import { hexWithAlpha } from './utils.js'
 
 export const manicTheme = {
   name: 'Manic',
