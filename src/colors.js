@@ -22,5 +22,6 @@ export const manicColors = {
     class: '#34d399',
     keyword: '#da86d5',
     string: '#c3e88d',
+    invalid: '#f44747',
   },
 }

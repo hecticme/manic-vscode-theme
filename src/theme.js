@@ -274,7 +274,7 @@ export const manicTheme = {
     {
       scope: 'invalid',
       settings: {
-        foreground: '#F44747',
+        foreground: colors.token.invalid,
       },
     },
     {
@@ -737,7 +737,7 @@ export const manicTheme = {
     {
       scope: 'token.error-token',
       settings: {
-        foreground: '#F44747',
+        foreground: colors.token.invalid,
       },
     },
     {
