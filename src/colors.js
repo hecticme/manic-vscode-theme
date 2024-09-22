@@ -26,5 +26,7 @@ export const manicColors = {
     tag: '#df6273',
     attribute: '#dfc86d',
     function: '#f8dcab',
+    variable: '#a4c4f2',
+    variableConstant: '#92a4f2',
   },
 }

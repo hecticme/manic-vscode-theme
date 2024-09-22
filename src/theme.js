@@ -627,7 +627,7 @@ export const manicTheme = {
         'constant.other.placeholder',
       ],
       settings: {
-        foreground: '#9CDCFE',
+        foreground: colors.token.variable,
       },
     },
     {
@@ -636,7 +636,7 @@ export const manicTheme = {
         'variable.other.enummember',
       ],
       settings: {
-        foreground: '#4FC1FF',
+        foreground: colors.token.variableConstant,
       },
     },
     {
