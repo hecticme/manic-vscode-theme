@@ -237,7 +237,7 @@ export const manicTheme = {
     {
       scope: 'entity.name.tag',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.token.tag,
       },
     },
     {

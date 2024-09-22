@@ -23,5 +23,6 @@ export const manicColors = {
     keyword: '#da86d5',
     string: '#c3e88d',
     invalid: '#f44747',
+    tag: '#df6273',
   },
 }
