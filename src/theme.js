@@ -548,7 +548,7 @@ export const manicTheme = {
         'entity.name.operator.custom-literal',
       ],
       settings: {
-        foreground: '#DCDCAA',
+        foreground: colors.token.function,
       },
     },
     {
