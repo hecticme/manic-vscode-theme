@@ -215,7 +215,7 @@ export const manicTheme = {
     {
       scope: 'constant.language',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.token.constant,
       },
     },
     {
