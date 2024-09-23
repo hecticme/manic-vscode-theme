@@ -20,7 +20,7 @@ export const manicColors = {
     comment: '#7f848e',
     class: '#34d399',
     keyword: '#da86d5',
-    string: '#c3e88d',
+    string: '#c5ea8e',
     invalid: '#f44747',
     tag: '#df6273',
     attribute: '#dfc86d',
