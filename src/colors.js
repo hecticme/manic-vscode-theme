@@ -23,7 +23,7 @@ export const manicColors = {
     string: '#c5ea8e',
     invalid: '#f44747',
     tag: '#df6273',
-    attribute: '#dfc86d',
+    attribute: '#f1c076',
     function: '#f8dcab',
     variable: '#a4c4f2',
     constant: '#92a4f2',
