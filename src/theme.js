@@ -82,6 +82,7 @@ export const manicTheme = {
     'menu.selectionBackground': colors.accent,
     'menu.selectionForeground': colors.foreground.contrast,
     'menu.separatorBackground': hexWithAlpha(colors.border.main, 0.6),
+    'multiDiffEditor.headerBackground': colors.background.sideBar,
     'notificationCenterHeader.background': colors.background.sideBar,
     'notificationCenterHeader.foreground': colors.foreground.toolbar,
     'notifications.background': colors.background.sideBar,
