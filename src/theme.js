@@ -263,7 +263,7 @@ export const manicTheme = {
         'entity.name.tag.less',
       ],
       settings: {
-        foreground: '#D7BA7D',
+        foreground: colors.tokenPalette.yellow,
       },
     },
     {
@@ -392,7 +392,7 @@ export const manicTheme = {
     {
       scope: 'meta.structure.dictionary.key.python',
       settings: {
-        foreground: '#9CDCFE',
+        foreground: colors.tokenPalette.blue,
       },
     },
     {
@@ -447,7 +447,7 @@ export const manicTheme = {
     {
       scope: 'string.regexp',
       settings: {
-        foreground: '#D16969',
+        foreground: colors.tokenPalette.brightRed,
       },
     },
     {
@@ -532,7 +532,7 @@ export const manicTheme = {
     {
       scope: 'support.function.git-rebase',
       settings: {
-        foreground: '#9CDCFE',
+        foreground: colors.tokenPalette.blue,
       },
     },
     {
@@ -669,7 +669,7 @@ export const manicTheme = {
         'meta.object-literal.key',
       ],
       settings: {
-        foreground: '#9CDCFE',
+        foreground: colors.tokenPalette.blue,
       },
     },
     {
@@ -708,7 +708,7 @@ export const manicTheme = {
         'constant.character.set.regexp',
       ],
       settings: {
-        foreground: '#D16969',
+        foreground: colors.tokenPalette.brightRed,
       },
     },
     {
@@ -717,13 +717,13 @@ export const manicTheme = {
         'keyword.control.anchor.regexp',
       ],
       settings: {
-        foreground: '#DCDCAA',
+        foreground: colors.tokenPalette.green,
       },
     },
     {
       scope: 'keyword.operator.quantifier.regexp',
       settings: {
-        foreground: '#D7BA7D',
+        foreground: colors.tokenPalette.yellow,
       },
     },
     {
@@ -738,7 +738,7 @@ export const manicTheme = {
     {
       scope: 'constant.character.escape',
       settings: {
-        foreground: '#D7BA7D',
+        foreground: colors.tokenPalette.yellow,
       },
     },
     {
