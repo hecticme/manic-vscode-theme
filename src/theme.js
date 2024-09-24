@@ -517,7 +517,7 @@ export const manicTheme = {
     {
       scope: 'keyword.other.unit',
       settings: {
-        foreground: '#B5CEA8',
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
