@@ -538,7 +538,7 @@ export const manicTheme = {
     {
       scope: 'constant.sha.git-rebase',
       settings: {
-        foreground: '#B5CEA8',
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
