@@ -6,8 +6,7 @@
   An abnormal theme for Visual Studio Code.
 <p>
 
-> [!Warning]
-> This theme is currently not ready yet! A lot of changes are expected.
+![theme-preview](https://github.com/user-attachments/assets/50ab83d9-2e81-400b-a637-675e4eff6e47)
 
 ## License
 
