@@ -404,7 +404,7 @@ export const manicTheme = {
         'keyword.operator.noexcept',
       ],
       settings: {
-        foreground: colors.token.storage,
+        foreground: colors.token.keyword,
       },
     },
     {
