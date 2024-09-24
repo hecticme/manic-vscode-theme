@@ -198,7 +198,7 @@ export const manicTheme = {
     {
       scope: 'comment',
       settings: {
-        foreground: colors.token.comment,
+        foreground: colors.tokenPalette.black,
         fontStyle: 'italic',
       },
     },
@@ -215,7 +215,7 @@ export const manicTheme = {
     {
       scope: 'constant.language',
       settings: {
-        foreground: colors.token.constant,
+        foreground: colors.tokenPalette.magenta,
       },
     },
     {
@@ -226,7 +226,7 @@ export const manicTheme = {
         'keyword.operator.minus.exponent',
       ],
       settings: {
-        foreground: colors.token.numeric,
+        foreground: colors.tokenPalette.magenta,
       },
     },
     {
@@ -238,7 +238,7 @@ export const manicTheme = {
     {
       scope: 'entity.name.tag',
       settings: {
-        foreground: colors.token.tag,
+        foreground: colors.tokenPalette.brightRed,
       },
     },
     {
@@ -253,7 +253,7 @@ export const manicTheme = {
     {
       scope: 'entity.other.attribute-name',
       settings: {
-        foreground: colors.token.attribute,
+        foreground: colors.tokenPalette.yellow,
       },
     },
     {
@@ -269,13 +269,13 @@ export const manicTheme = {
         'entity.other.attribute-name.scss',
       ],
       settings: {
-        foreground: colors.token.attribute,
+        foreground: colors.tokenPalette.yellow,
       },
     },
     {
       scope: 'invalid',
       settings: {
-        foreground: colors.token.invalid,
+        foreground: colors.tokenPalette.red,
       },
     },
     {
@@ -287,14 +287,14 @@ export const manicTheme = {
     {
       scope: 'markup.bold',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.tokenPalette.teal,
         fontStyle: 'bold',
       },
     },
     {
       scope: 'markup.heading',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.tokenPalette.teal,
         fontStyle: 'bold',
       },
     },
@@ -313,19 +313,19 @@ export const manicTheme = {
     {
       scope: 'markup.inserted',
       settings: {
-        foreground: colors.token.markup,
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
       scope: 'markup.deleted',
       settings: {
-        foreground: colors.token.string,
+        foreground: colors.tokenPalette.brightGreen,
       },
     },
     {
       scope: 'markup.changed',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
@@ -343,7 +343,7 @@ export const manicTheme = {
     {
       scope: 'markup.inline.raw',
       settings: {
-        foreground: colors.token.string,
+        foreground: colors.tokenPalette.brightGreen,
       },
     },
     {
@@ -358,19 +358,19 @@ export const manicTheme = {
         'entity.name.function.preprocessor',
       ],
       settings: {
-        foreground: colors.token.meta,
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
       scope: 'meta.preprocessor.string',
       settings: {
-        foreground: colors.token.string,
+        foreground: colors.tokenPalette.brightGreen,
       },
     },
     {
       scope: 'meta.preprocessor.numeric',
       settings: {
-        foreground: colors.token.meta,
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
@@ -382,19 +382,19 @@ export const manicTheme = {
     {
       scope: 'meta.diff.header',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
       scope: 'storage',
       settings: {
-        foreground: colors.token.storage,
+        foreground: colors.tokenPalette.brightRed,
       },
     },
     {
       scope: 'storage.type',
       settings: {
-        foreground: colors.token.storageType,
+        foreground: colors.tokenPalette.teal,
         fontStyle: 'italic',
       },
     },
@@ -404,7 +404,7 @@ export const manicTheme = {
         'keyword.operator.noexcept',
       ],
       settings: {
-        foreground: colors.token.keyword,
+        foreground: colors.tokenPalette.pink,
       },
     },
     {
@@ -413,19 +413,19 @@ export const manicTheme = {
         'meta.embedded.assembly',
       ],
       settings: {
-        foreground: colors.token.string,
+        foreground: colors.tokenPalette.brightGreen,
       },
     },
     {
       scope: 'string.tag',
       settings: {
-        foreground: colors.token.string,
+        foreground: colors.tokenPalette.brightGreen,
       },
     },
     {
       scope: 'string.value',
       settings: {
-        foreground: colors.token.string,
+        foreground: colors.tokenPalette.brightGreen,
       },
     },
     {
@@ -441,7 +441,7 @@ export const manicTheme = {
         'punctuation.section.embedded',
       ],
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
@@ -460,19 +460,19 @@ export const manicTheme = {
         'source.coffee.embedded',
       ],
       settings: {
-        foreground: colors.token.property,
+        foreground: colors.tokenPalette.blue,
       },
     },
     {
       scope: 'keyword',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
       scope: 'keyword.control',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
@@ -495,7 +495,7 @@ export const manicTheme = {
         'keyword.operator.wordlike',
       ],
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
@@ -510,7 +510,7 @@ export const manicTheme = {
         'punctuation.section.embedded.end.php',
       ],
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
@@ -538,7 +538,7 @@ export const manicTheme = {
     {
       scope: 'variable.language',
       settings: {
-        foreground: '#569CD6',
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
@@ -550,7 +550,7 @@ export const manicTheme = {
         'entity.name.operator.custom-literal',
       ],
       settings: {
-        foreground: colors.token.function,
+        foreground: colors.tokenPalette.brightYellow,
       },
     },
     {
@@ -589,7 +589,7 @@ export const manicTheme = {
         'storage.type.primitive.groovy',
       ],
       settings: {
-        foreground: colors.token.class,
+        foreground: colors.tokenPalette.green,
       },
     },
     {
@@ -602,7 +602,7 @@ export const manicTheme = {
         'entity.other.inherited-class',
       ],
       settings: {
-        foreground: colors.token.class,
+        foreground: colors.tokenPalette.green,
       },
     },
     {
@@ -616,7 +616,7 @@ export const manicTheme = {
         'entity.name.operator',
       ],
       settings: {
-        foreground: colors.token.keyword,
+        foreground: colors.tokenPalette.pink,
         fontStyle: 'italic',
       },
     },
@@ -629,7 +629,7 @@ export const manicTheme = {
         'constant.other.placeholder',
       ],
       settings: {
-        foreground: colors.token.variable,
+        foreground: colors.tokenPalette.blue,
       },
     },
     {
@@ -638,13 +638,13 @@ export const manicTheme = {
         'variable.other.enummember',
       ],
       settings: {
-        foreground: colors.token.constant,
+        foreground: colors.tokenPalette.magenta,
       },
     },
     {
       scope: 'variable.parameter',
       settings: {
-        foreground: colors.token.parameter,
+        foreground: colors.tokenPalette.orange,
         fontStyle: 'italic',
       },
     },
@@ -667,7 +667,7 @@ export const manicTheme = {
         'support.constant.color',
       ],
       settings: {
-        foreground: colors.token.string,
+        foreground: colors.tokenPalette.brightGreen,
       },
     },
     {
@@ -681,7 +681,7 @@ export const manicTheme = {
         'support.other.parenthesis.regexp',
       ],
       settings: {
-        foreground: colors.token.string,
+        foreground: colors.tokenPalette.brightGreen,
       },
     },
     {
@@ -716,7 +716,7 @@ export const manicTheme = {
         'constant.other.option',
       ],
       settings: {
-        foreground: colors.token.constant,
+        foreground: colors.tokenPalette.magenta,
       },
     },
     {
@@ -746,7 +746,7 @@ export const manicTheme = {
     {
       scope: 'token.error-token',
       settings: {
-        foreground: colors.token.invalid,
+        foreground: colors.tokenPalette.red,
       },
     },
     {
