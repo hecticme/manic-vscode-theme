@@ -6,7 +6,7 @@ export const manicLightTheme = {
   $schema: 'vscode://schemas/color-theme',
   type: 'light',
   colors: {
-    'actionBar.toggledBackground': '#383a49',
+    'actionBar.toggledBackground': '#dddddd',
     'activityBar.activeBorder': colors.transparent,
     'activityBar.background': colors.background.sideBar,
     'activityBar.border': colors.border.main,
@@ -21,33 +21,33 @@ export const manicLightTheme = {
     'button.foreground': colors.foreground.contrast,
     'button.secondaryBackground': colors.background.toolbar,
     'button.secondaryForeground': colors.foreground.toolbar,
-    'chat.slashCommandBackground': '#34414b',
-    'chat.slashCommandForeground': '#40a6ff',
-    'checkbox.background': '#313131',
-    'checkbox.border': '#3c3c3c',
+    'chat.slashCommandBackground': '#d2ecff',
+    'chat.slashCommandForeground': '#306ca2',
+    'checkbox.background': '#f8f8f8',
+    'checkbox.border': '#cecece',
     'commandCenter.border': colors.border.lighter,
     'debugToolBar.background': colors.background.sideBar,
-    descriptionForeground: '#9d9d9d',
+    descriptionForeground: '#3b3b3b',
     'diffEditor.unchangedRegionBackground': colors.background.sideBar,
     'diffEditor.unchangedRegionShadow': colors.transparent,
-    'dropdown.background': '#313131',
-    'dropdown.border': '#3c3c3c',
+    'dropdown.background': '#ffffff',
+    'dropdown.border': '#cecece',
     'dropdown.foreground': colors.foreground.toolbar,
-    'dropdown.listBackground': '#1f1f1f',
+    'dropdown.listBackground': '#ffffff',
     'editor.background': colors.background.editor,
     'editor.findMatchBackground': '#9e6a03',
     'editor.foreground': colors.foreground.editor,
-    'editor.inactiveSelectionBackground': '#3a3d41',
+    'editor.inactiveSelectionBackground': '#e5ebf1',
     'editor.lineHighlightBackground': hexWithAlpha(colors.accent, 0.05),
-    'editor.selectionHighlightBackground': '#add6ff26',
+    'editor.selectionHighlightBackground': '#add6ff80',
     'editorGroup.border': colors.border.main,
     'editorGroupHeader.tabsBackground': colors.background.sideBar,
     'editorGroupHeader.tabsBorder': colors.border.main,
     'editorGutter.addedBackground': '#2ea043',
     'editorGutter.deletedBackground': '#f85149',
-    'editorGutter.modifiedBackground': '#0078d4',
-    'editorIndentGuide.activeBackground1': '#707070',
-    'editorIndentGuide.background1': '#404040',
+    'editorGutter.modifiedBackground': '#005fb8',
+    'editorIndentGuide.activeBackground1': '#939393',
+    'editorIndentGuide.background1': '#d3d3d3',
     'editorLineNumber.activeForeground': colors.foreground.toolbar,
     'editorLineNumber.foreground': hexWithAlpha(colors.foreground.toolbar, 0.4),
     'editorOverviewRuler.border': colors.border.main,
@@ -139,9 +139,9 @@ export const manicLightTheme = {
     'tab.inactiveBackground': colors.background.sideBar,
     'tab.inactiveForeground': hexWithAlpha(colors.foreground.editor, 0.6),
     'tab.lastPinnedBorder': colors.border.main,
-    'tab.selectedBackground': '#222222',
-    'tab.selectedBorderTop': '#6caddf',
-    'tab.selectedForeground': '#ffffffa0',
+    'tab.selectedBackground': '#ffffffa5',
+    'tab.selectedBorderTop': '#68a3da',
+    'tab.selectedForeground': '#333333b3',
     'tab.unfocusedActiveBorder': colors.background.editor,
     'tab.unfocusedActiveBorderTop': colors.transparent,
     'tab.unfocusedHoverBackground': hexWithAlpha(colors.background.editor, 0.7),
@@ -162,15 +162,15 @@ export const manicLightTheme = {
     'terminal.ansiRed': colors.tokenPalette.red,
     'terminal.ansiWhite': colors.foreground.editor,
     'terminal.ansiYellow': colors.tokenPalette.yellow,
-    'terminal.inactiveSelectionBackground': '#3a3d41',
+    'terminal.inactiveSelectionBackground': '#e5ebf1',
     'terminal.tab.activeBorder': colors.accent,
     'textBlockQuote.background': colors.border.main,
-    'textBlockQuote.border': '#616161',
+    'textBlockQuote.border': '#e5e5e5',
     'textCodeBlock.background': colors.border.main,
-    'textLink.activeForeground': '#4daafc',
-    'textLink.foreground': '#4daafc',
-    'textPreformat.background': '#3c3c3c',
-    'textPreformat.foreground': '#d0d0d0',
+    'textLink.activeForeground': '#005fb8',
+    'textLink.foreground': '#005fb8',
+    'textPreformat.background': '#0000001f',
+    'textPreformat.foreground': '#3b3b3b',
     'textSeparator.foreground': '#21262d',
     'titleBar.activeBackground': colors.background.toolbar,
     'titleBar.activeForeground': colors.foreground.toolbar,
@@ -190,7 +190,7 @@ export const manicLightTheme = {
         'variable.legacy.builtin.python',
       ],
       settings: {
-        foreground: '#D4D4D4',
+        foreground: '#000000',
       },
     },
     {
@@ -248,7 +248,7 @@ export const manicLightTheme = {
     {
       scope: 'constant.regexp',
       settings: {
-        foreground: '#646695',
+        foreground: '#811F3F',
       },
     },
     {
@@ -347,13 +347,13 @@ export const manicLightTheme = {
     {
       scope: 'punctuation.definition.quote.begin.markdown',
       settings: {
-        foreground: '#6A9955',
+        foreground: '#0451A5',
       },
     },
     {
       scope: 'punctuation.definition.list.begin.markdown',
       settings: {
-        foreground: '#6796E6',
+        foreground: '#0451A5',
       },
     },
     {
@@ -365,7 +365,7 @@ export const manicLightTheme = {
     {
       scope: 'punctuation.definition.tag',
       settings: {
-        foreground: '#808080',
+        foreground: '#800000',
       },
     },
     {
@@ -465,7 +465,7 @@ export const manicLightTheme = {
         'meta.template.expression',
       ],
       settings: {
-        foreground: '#D4D4D4',
+        foreground: '#000000',
       },
     },
     {
@@ -494,7 +494,7 @@ export const manicLightTheme = {
     {
       scope: 'keyword.operator',
       settings: {
-        foreground: '#D4D4D4',
+        foreground: '#000000',
       },
     },
     {
@@ -548,7 +548,7 @@ export const manicLightTheme = {
         'storage.modifier.package.java',
       ],
       settings: {
-        foreground: '#D4D4D4',
+        foreground: '#000000',
       },
     },
     {
@@ -744,13 +744,13 @@ export const manicLightTheme = {
     {
       scope: 'entity.name.label',
       settings: {
-        foreground: '#C8C8C8',
+        foreground: '#000000',
       },
     },
     {
       scope: 'token.info-token',
       settings: {
-        foreground: '#6796E6',
+        foreground: '#316BCD',
       },
     },
     {
@@ -768,7 +768,7 @@ export const manicLightTheme = {
     {
       scope: 'token.debug-token',
       settings: {
-        foreground: '#B267E6',
+        foreground: '#800080',
       },
     },
   ],
