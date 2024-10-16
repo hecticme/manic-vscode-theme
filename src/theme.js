@@ -419,7 +419,7 @@ export const manicTheme = {
         'keyword.operator.noexcept',
       ],
       settings: {
-        foreground: colors.tokenPalette.pink,
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
