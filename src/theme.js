@@ -206,13 +206,7 @@ export const manicTheme = {
       },
     },
     {
-      scope: [
-        'comment',
-        'comment.block.documentation.js',
-        'entity.name.type.instance.jsdoc',
-        'storage.type.class.jsdoc',
-        'variable.other.jsdoc',
-      ],
+      scope: 'comment',
       settings: {
         foreground: colors.tokenPalette.black,
       },
