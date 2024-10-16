@@ -194,12 +194,6 @@ export const manicTheme = {
       },
     },
     {
-      scope: 'emphasis',
-      settings: {
-        fontStyle: 'italic',
-      },
-    },
-    {
       scope: 'strong',
       settings: {
         fontStyle: 'bold',
@@ -311,12 +305,6 @@ export const manicTheme = {
       settings: {
         foreground: colors.tokenPalette.teal,
         fontStyle: 'bold',
-      },
-    },
-    {
-      scope: 'markup.italic',
-      settings: {
-        fontStyle: 'italic',
       },
     },
     {
