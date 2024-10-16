@@ -211,6 +211,7 @@ export const manicTheme = {
         'comment.block.documentation.js',
         'entity.name.type.instance.jsdoc',
         'storage.type.class.jsdoc',
+        'variable.other.jsdoc',
       ],
       settings: {
         foreground: colors.tokenPalette.black,
