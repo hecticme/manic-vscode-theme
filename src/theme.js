@@ -643,12 +643,6 @@ export const manicTheme = {
       },
     },
     {
-      scope: 'variable.parameter',
-      settings: {
-        foreground: colors.tokenPalette.orange,
-      },
-    },
-    {
       scope: [
         'meta.object-literal.key',
       ],
