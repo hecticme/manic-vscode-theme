@@ -226,6 +226,7 @@ export const manicTheme = {
     },
     {
       scope: [
+        'storage.type.class',
         'storage.type.class.jsdoc',
         'entity.name.type.instance.jsdoc',
         'variable.other.jsdoc',
