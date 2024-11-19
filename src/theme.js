@@ -115,6 +115,7 @@ export const manicTheme = {
     'quickInputList.focusBackground': colors.accent,
     'quickInputList.focusForeground': colors.foreground.contrast,
     'quickInputList.focusIconForeground': colors.foreground.contrast,
+    'selection.background': hexWithAlpha(colors.tokenPalette.magenta, 0.5),
     'settings.dropdownBackground': colors.background.input,
     'settings.dropdownBorder': colors.border.main,
     'settings.headerForeground': colors.foreground.editor,
