@@ -419,7 +419,7 @@ export const manicTheme = {
       scope: 'storage.type',
       settings: {
         foreground: colors.tokenPalette.teal,
-        fontStyle: 'italic',
+        fontStyle: '',
       },
     },
     {
@@ -641,7 +641,7 @@ export const manicTheme = {
       ],
       settings: {
         foreground: colors.tokenPalette.pink,
-        fontStyle: 'italic',
+        fontStyle: '',
       },
     },
     {
