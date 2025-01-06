@@ -78,6 +78,7 @@ export const manicTheme = {
     'inputOption.activeBorder': hexWithAlpha(colors.accent, 0.3),
     'keybindingLabel.foreground': colors.foreground.toolbar,
     'list.activeSelectionBackground': hexWithAlpha(colors.accent, 0.1),
+    'list.activeSelectionForeground': '#ffffff',
     'list.activeSelectionIconForeground': colors.foreground.editor,
     'list.hoverBackground': hexWithAlpha(colors.accent, 0.1),
     'list.focusHighlightForeground': colors.foreground.contrast,
