@@ -35,19 +35,26 @@ export const manicLightTheme = {
     'dropdown.foreground': colors.foreground.toolbar,
     'dropdown.listBackground': '#ffffff',
     'editor.background': colors.background.editor,
-    'editor.findMatchBackground': '#9e6a03',
+    'editor.findMatchBackground': hexWithAlpha(colors.tokenPalette.yellow, 0.3),
+    'editor.findMatchHighlightBackground': hexWithAlpha(colors.tokenPalette.yellow, 0.2),
+    'editor.findRangeHighlightBackground': hexWithAlpha(colors.tokenPalette.yellow, 0.1),
     'editor.foreground': colors.foreground.editor,
-    'editor.inactiveSelectionBackground': '#e5ebf1',
+    'editor.inactiveSelectionBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.125),
     'editor.lineHighlightBackground': hexWithAlpha(colors.accent, 0.05),
-    'editor.selectionHighlightBackground': '#add6ff80',
+    'editor.selectionBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.2),
+    'editor.selectionHighlightBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.095),
+    'editor.wordHighlightBackground': hexWithAlpha(colors.tokenPalette.blue, 0.125),
+    'editor.wordHighlightStrongBackground': hexWithAlpha(colors.tokenPalette.green, 0.125),
+    'editor.wordHighlightTextBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.08),
+    'editorCursor.foreground': colors.tokenPalette.pink,
     'editorGroup.border': colors.border.main,
     'editorGroupHeader.tabsBackground': colors.background.sideBar,
     'editorGroupHeader.tabsBorder': colors.border.main,
     'editorGutter.addedBackground': '#2ea043',
     'editorGutter.deletedBackground': '#f85149',
     'editorGutter.modifiedBackground': '#005fb8',
-    'editorIndentGuide.activeBackground1': '#939393',
-    'editorIndentGuide.background1': '#d3d3d3',
+    'editorIndentGuide.activeBackground1': hexWithAlpha(colors.accent, 0.3),
+    'editorIndentGuide.background1': hexWithAlpha(colors.accent, 0.1),
     'editorLineNumber.activeForeground': colors.foreground.toolbar,
     'editorLineNumber.foreground': hexWithAlpha(colors.foreground.toolbar, 0.4),
     'editorOverviewRuler.border': colors.border.main,
@@ -71,6 +78,7 @@ export const manicLightTheme = {
     'inputOption.activeBorder': hexWithAlpha(colors.accent, 0.3),
     'keybindingLabel.foreground': colors.foreground.toolbar,
     'list.activeSelectionBackground': hexWithAlpha(colors.accent, 0.1),
+    'list.activeSelectionForeground': '#000000',
     'list.activeSelectionIconForeground': colors.foreground.editor,
     'list.hoverBackground': hexWithAlpha(colors.accent, 0.1),
     'list.focusHighlightForeground': colors.foreground.contrast,
@@ -108,6 +116,7 @@ export const manicLightTheme = {
     'quickInputList.focusBackground': colors.accent,
     'quickInputList.focusForeground': colors.foreground.contrast,
     'quickInputList.focusIconForeground': colors.foreground.contrast,
+    'selection.background': hexWithAlpha(colors.tokenPalette.magenta, 0.5),
     'settings.dropdownBackground': colors.background.input,
     'settings.dropdownBorder': colors.border.main,
     'settings.headerForeground': colors.foreground.editor,
@@ -157,18 +166,18 @@ export const manicLightTheme = {
     'terminal.ansiBrightWhite': colors.foreground.editor,
     'terminal.ansiBrightYellow': colors.tokenPalette.brightYellow,
     'terminal.ansiCyan': colors.tokenPalette.teal,
-    'terminal.ansiGreen': colors.tokenPalette.green,
+    'terminal.ansiGreen': colors.tokenPalette.brightGreen,
     'terminal.ansiMagenta': colors.tokenPalette.magenta,
-    'terminal.ansiRed': colors.tokenPalette.red,
+    'terminal.ansiRed': colors.tokenPalette.brightRed,
     'terminal.ansiWhite': colors.foreground.editor,
-    'terminal.ansiYellow': colors.tokenPalette.yellow,
+    'terminal.ansiYellow': colors.tokenPalette.brightYellow,
     'terminal.inactiveSelectionBackground': '#e5ebf1',
     'terminal.tab.activeBorder': colors.accent,
     'textBlockQuote.background': colors.border.main,
     'textBlockQuote.border': '#e5e5e5',
     'textCodeBlock.background': colors.border.main,
-    'textLink.activeForeground': '#005fb8',
-    'textLink.foreground': '#005fb8',
+    'textLink.activeForeground': colors.tokenPalette.pink,
+    'textLink.foreground': colors.tokenPalette.pink,
     'textPreformat.background': '#0000001f',
     'textPreformat.foreground': '#3b3b3b',
     'textSeparator.foreground': '#21262d',
@@ -194,12 +203,6 @@ export const manicLightTheme = {
       },
     },
     {
-      scope: 'emphasis',
-      settings: {
-        fontStyle: 'italic',
-      },
-    },
-    {
       scope: 'strong',
       settings: {
         fontStyle: 'bold',
@@ -212,14 +215,28 @@ export const manicLightTheme = {
       },
     },
     {
-      scope: 'comment',
+      scope: [
+        'comment',
+        'comment.block.documentation.js',
+        'entity.name.type.instance.jsdoc',
+        'constant.language.access-type.jsdoc',
+        'constant.language.symbol-type.jsdoc',
+        'variable.other.link.underline.jsdoc',
+        'variable.other.description.jsdoc',
+        'keyword.operator.control.jsdoc',
+        'storage.type.class.jsdoc',
+        'variable.other.jsdoc',
+        'keyword.operator.assignment.jsdoc',
+        'comment.block.documentation.phpdoc.php',
+        'keyword.other.phpdoc.php',
+      ],
       settings: {
         foreground: colors.tokenPalette.black,
-        fontStyle: 'italic',
       },
     },
     {
       scope: [
+        'storage.type.class',
         'storage.type.class.jsdoc',
         'entity.name.type.instance.jsdoc',
         'variable.other.jsdoc',
@@ -315,12 +332,6 @@ export const manicLightTheme = {
       },
     },
     {
-      scope: 'markup.italic',
-      settings: {
-        fontStyle: 'italic',
-      },
-    },
-    {
       scope: 'markup.strikethrough',
       settings: {
         fontStyle: 'strikethrough',
@@ -411,7 +422,7 @@ export const manicLightTheme = {
       scope: 'storage.type',
       settings: {
         foreground: colors.tokenPalette.teal,
-        fontStyle: 'italic',
+        fontStyle: '',
       },
     },
     {
@@ -420,7 +431,7 @@ export const manicLightTheme = {
         'keyword.operator.noexcept',
       ],
       settings: {
-        foreground: colors.tokenPalette.pink,
+        foreground: colors.tokenPalette.teal,
       },
     },
     {
@@ -633,7 +644,7 @@ export const manicLightTheme = {
       ],
       settings: {
         foreground: colors.tokenPalette.pink,
-        fontStyle: 'italic',
+        fontStyle: '',
       },
     },
     {
@@ -655,13 +666,6 @@ export const manicLightTheme = {
       ],
       settings: {
         foreground: colors.tokenPalette.magenta,
-      },
-    },
-    {
-      scope: 'variable.parameter',
-      settings: {
-        foreground: colors.tokenPalette.orange,
-        fontStyle: 'italic',
       },
     },
     {
