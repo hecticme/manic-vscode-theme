@@ -374,12 +374,6 @@ export const manicTheme = {
       },
     },
     {
-      scope: 'punctuation.definition.tag',
-      settings: {
-        foreground: '#808080',
-      },
-    },
-    {
       scope: [
         'meta.preprocessor',
         'entity.name.function.preprocessor',
