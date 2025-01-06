@@ -6,7 +6,20 @@
   An abnormal theme for Visual Studio Code.
 <p>
 
-![theme-preview](https://github.com/user-attachments/assets/50ab83d9-2e81-400b-a637-675e4eff6e47)
+_Manic_
+
+![dark-theme](/previews/dark.png)
+
+_Manic By Day_
+
+![light-theme](/previews/light.png)
+
+[⚙️ Settings for same look.](https://github.com/hecticme/vscode-settings/blob/main/.vscode/settings.json)
+
+## Characteristics
+
+- JSDoc and similar blocks use same color as normal comments.
+- No italic.
 
 ## License
 
