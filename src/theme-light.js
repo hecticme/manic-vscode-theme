@@ -137,6 +137,8 @@ export const manicLightTheme = {
     'statusBar.noFolderBackground': colors.background.toolbar,
     'statusBarItem.focusBorder': hexWithAlpha(colors.accent, 0.6),
     'statusBarItem.prominentBackground': '#6e768166',
+    'statusBarItem.hoverBackground': hexWithAlpha(colors.accent, 0.1),
+    'statusBarItem.compactHoverBackground': hexWithAlpha(colors.accent, 0.15),
     'statusBarItem.remoteBackground': colors.transparent,
     'statusBarItem.remoteForeground': colors.foreground.toolbar,
     'tab.activeBackground': colors.background.editor,
