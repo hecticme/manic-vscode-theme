@@ -4,7 +4,7 @@ export const manicLightColors = {
   background: {
     editor: '#ffffff',
     sideBar: '#f5f5f7',
-    toolbar: '#e5e5e8',
+    toolbar: '#ededef',
     input: '#e8e8ea',
   },
   foreground: {
