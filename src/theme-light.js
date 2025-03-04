@@ -26,6 +26,7 @@ export const manicLightTheme = {
     'checkbox.background': '#f8f8f8',
     'checkbox.border': '#cecece',
     'commandCenter.border': colors.border.lighter,
+    'commandCenter.background': colors.background.commandCenter,
     'debugToolBar.background': colors.background.sideBar,
     descriptionForeground: '#3b3b3b',
     'diffEditor.unchangedRegionBackground': colors.background.sideBar,

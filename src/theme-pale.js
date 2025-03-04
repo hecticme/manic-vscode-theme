@@ -26,6 +26,7 @@ export const manicPaleTheme = {
     'checkbox.background': '#313131',
     'checkbox.border': '#3c3c3c',
     'commandCenter.border': colors.border.lighter,
+    'commandCenter.background': colors.background.commandCenter,
     'debugToolBar.background': colors.background.sideBar,
     descriptionForeground: '#9d9d9d',
     'diffEditor.unchangedRegionBackground': colors.background.sideBar,
