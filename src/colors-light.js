@@ -28,6 +28,6 @@ export const manicLightColors = {
     blue: '#2648a8',
     magenta: '#5a4eca',
     teal: '#146a89',
-    orange: '#d66e12',
+    purple: '#d8b5ff',
   },
 }
