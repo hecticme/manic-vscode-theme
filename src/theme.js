@@ -60,6 +60,7 @@ export const manicTheme = {
     'editorOverviewRuler.border': colors.border.main,
     'editorRuler.foreground': hexWithAlpha(colors.border.main, 0.5),
     'editorWidget.border': colors.border.main,
+    'editorLink.activeForeground': colors.tokenPalette.purple,
     'editorSuggestWidget.background': colors.background.sideBar,
     'editorSuggestWidget.focusHighlightForeground': colors.foreground.contrast,
     'editorSuggestWidget.selectedBackground': colors.accent,
