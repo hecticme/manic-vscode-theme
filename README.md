@@ -10,6 +10,10 @@ _Manic_
 
 ![dark-theme](/previews/dark.png)
 
+_Manic Pale Night_
+
+![light-theme](/previews/pale.png)
+
 _Manic By Day_
 
 ![light-theme](/previews/light.png)
