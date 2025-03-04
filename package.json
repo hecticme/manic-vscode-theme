@@ -28,6 +28,11 @@
         "label": "Manic By Day",
         "uiTheme": "vs",
         "path": "./themes/manic-light.json"
+      },
+      {
+        "label": "Manic Pale Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/manic-pale.json"
       }
     ]
   },
