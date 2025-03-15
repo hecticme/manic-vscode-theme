@@ -31,4 +31,9 @@ export const manicColors = {
     teal: '#a0f0d8',
     purple: '#d8b5ff',
   },
+  change: {
+    added: '#c5ea8e',
+    deleted: '#f44747',
+    modified: '#f1c076',
+  },
 }
