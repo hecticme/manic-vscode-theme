@@ -131,6 +131,7 @@ export const manicLightTheme = {
     'sideBarSectionHeader.border': colors.border.main,
     'sideBarSectionHeader.foreground': colors.foreground.toolbar,
     'sideBarTitle.foreground': colors.foreground.toolbar,
+    'scrollbar.shadow': colors.transparent,
     'statusBar.background': colors.background.toolbar,
     'statusBar.border': colors.border.lighter,
     'statusBar.debuggingBackground': colors.background.toolbar,
