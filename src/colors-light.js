@@ -34,6 +34,6 @@ export const manicLightColors = {
   change: {
     added: '#2da245',
     deleted: '#f44747',
-    modified: '#c49067',
+    modified: '#b06e42',
   },
 }
