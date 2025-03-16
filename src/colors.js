@@ -32,7 +32,7 @@ export const manicColors = {
     purple: '#d8b5ff',
   },
   change: {
-    added: '#c5ea8e',
+    added: '#a5da6e',
     deleted: '#f44747',
     modified: '#f1c076',
   },
