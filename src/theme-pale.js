@@ -89,7 +89,7 @@ export const manicPaleTheme = {
     'list.hoverBackground': hexWithAlpha(colors.accent, 0.15),
     'list.focusHighlightForeground': colors.foreground.contrast,
     'list.highlightForeground': colors.accent,
-    'list.dropBackground': '#383b3d',
+    'list.dropBackground': hexWithAlpha(colors.accent, 0.1),
     'menu.background': colors.background.sideBar,
     'menu.border': colors.border.main,
     'menu.foreground': colors.foreground.toolbar,
