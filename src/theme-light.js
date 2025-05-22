@@ -50,6 +50,8 @@ export const manicLightTheme = {
     'editor.wordHighlightBackground': hexWithAlpha(colors.tokenPalette.blue, 0.125),
     'editor.wordHighlightStrongBackground': hexWithAlpha(colors.tokenPalette.green, 0.125),
     'editor.wordHighlightTextBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.08),
+    'editorBracketMatch.background': hexWithAlpha(colors.tokenPalette.blue, 0.25),
+    'editorBracketMatch.border': colors.transparent,
     'editorCursor.foreground': colors.tokenPalette.pink,
     'editorGroup.border': colors.border.main,
     'editorGroupHeader.tabsBackground': colors.background.sideBar,
