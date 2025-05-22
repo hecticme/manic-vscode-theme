@@ -118,6 +118,7 @@ export const manicLightTheme = {
     'peekViewResult.selectionBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.1),
     'peekViewTitle.background': colors.background.sideBar,
     'pickerGroup.border': colors.border.main,
+    'pickerGroup.foreground': colors.tokenPalette.blue,
     'ports.iconRunningProcessForeground': '#369432',
     'progressBar.background': colors.accent,
     'quickInput.background': colors.background.sideBar,
