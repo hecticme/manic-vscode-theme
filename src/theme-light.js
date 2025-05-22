@@ -129,7 +129,7 @@ export const manicLightTheme = {
     'settings.dropdownBackground': colors.background.input,
     'settings.dropdownBorder': colors.border.main,
     'settings.headerForeground': colors.foreground.editor,
-    'settings.modifiedItemIndicator': '#bb800966',
+    'settings.modifiedItemIndicator': colors.tokenPalette.yellow,
     'sideBar.background': colors.background.sideBar,
     'sideBar.border': colors.border.main,
     'sideBar.foreground': colors.foreground.toolbar,
