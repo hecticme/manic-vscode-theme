@@ -36,9 +36,4 @@ export const manicColors = {
     deleted: '#f44747',
     modified: '#f1c076',
   },
-  bracket: {
-    foreground1: '#7ed6f7',
-    foreground2: '#e8d27a',
-    foreground3: '#d19ee8',
-  },
 }
