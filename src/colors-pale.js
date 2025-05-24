@@ -9,7 +9,7 @@ export const manicColors = {
     commandCenter: '#44444f',
   },
   foreground: {
-    editor: '#f8f8f2',
+    editor: '#e0e0dc',
     toolbar: '#cccccc',
     contrast: '#202024',
   },
