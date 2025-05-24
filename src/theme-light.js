@@ -263,18 +263,6 @@ export const manicLightTheme = {
     {
       scope: [
         'comment',
-        'comment.block.documentation.js',
-        'entity.name.type.instance.jsdoc',
-        'constant.language.access-type.jsdoc',
-        'constant.language.symbol-type.jsdoc',
-        'variable.other.link.underline.jsdoc',
-        'variable.other.description.jsdoc',
-        'keyword.operator.control.jsdoc',
-        'storage.type.class.jsdoc',
-        'variable.other.jsdoc',
-        'keyword.operator.assignment.jsdoc',
-        'comment.block.documentation.phpdoc.php',
-        'keyword.other.phpdoc.php',
       ],
       settings: {
         foreground: colors.tokenPalette.black,
