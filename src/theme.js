@@ -62,7 +62,7 @@ export const manicTheme = {
     'editorIndentGuide.activeBackground1': hexWithAlpha(colors.accent, 0.3),
     'editorIndentGuide.background1': hexWithAlpha(colors.accent, 0.1),
     'editorLineNumber.activeForeground': colors.foreground.toolbar,
-    'editorLineNumber.foreground': hexWithAlpha(colors.foreground.toolbar, 0.4),
+    'editorLineNumber.foreground': hexWithAlpha(colors.tokenPalette.black, 0.6),
     'editorOverviewRuler.border': colors.border.main,
     'editorRuler.foreground': hexWithAlpha(colors.border.main, 0.5),
     'editorWidget.border': colors.border.main,
