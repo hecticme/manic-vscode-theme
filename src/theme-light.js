@@ -68,6 +68,7 @@ export const manicLightTheme = {
     'editorLineNumber.foreground': hexWithAlpha(colors.tokenPalette.black, 0.6),
     'editorOverviewRuler.border': colors.border.main,
     'editorRuler.foreground': hexWithAlpha(colors.border.main, 0.5),
+    'editorWhitespace.foreground': hexWithAlpha(colors.foreground.editor, 0.2),
     'editorWidget.border': colors.border.main,
     'editorLink.activeForeground': colors.tokenPalette.purple,
     'editorSuggestWidget.background': colors.background.sideBar,

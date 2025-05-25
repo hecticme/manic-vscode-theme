@@ -68,6 +68,7 @@ export const manicPaleTheme = {
     'editorLineNumber.foreground': hexWithAlpha(colors.tokenPalette.black, 0.6),
     'editorOverviewRuler.border': colors.border.main,
     'editorRuler.foreground': hexWithAlpha(colors.border.main, 0.5),
+    'editorWhitespace.foreground': hexWithAlpha(colors.foreground.editor, 0.18),
     'editorWidget.border': colors.border.main,
     'editorLink.activeForeground': colors.tokenPalette.purple,
     'editorSuggestWidget.background': colors.background.sideBar,

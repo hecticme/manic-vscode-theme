@@ -75,6 +75,7 @@ export const manicTheme = {
     'editorSuggestWidget.selectedBackground': colors.accent,
     'editorSuggestWidget.selectedForeground': colors.foreground.contrast,
     'editorSuggestWidget.selectedIconForeground': colors.foreground.contrast,
+    'editorWhitespace.foreground': hexWithAlpha(colors.foreground.editor, 0.18),
     'editorWidget.background': colors.background.sideBar,
     errorForeground: '#f85149',
     focusBorder: hexWithAlpha(colors.accent, 0.6),
