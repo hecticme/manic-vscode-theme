@@ -20,11 +20,6 @@ _Manic By Day_
 
 [⚙️ Settings for same look.](https://github.com/hecticme/vscode-settings/blob/main/.vscode/settings.json)
 
-## Characteristics
-
-- JSDoc and similar blocks use same color as normal comments.
-- No italic.
-
 ## License
 
 Published under [MIT License](./LICENSE).
