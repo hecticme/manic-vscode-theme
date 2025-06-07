@@ -141,7 +141,7 @@ export const manicTheme = {
     'scmGraph.historyItemRemoteRefColor': colors.tokenPalette.teal,
     'scmGraph.historyItemBaseRefColor': colors.tokenPalette.green,
     'scmGraph.historyItemHoverDefaultLabelForeground': colors.foreground.contrast,
-    'scmGraph.historyItemHoverDefaultLabelBackground': colors.foreground.contrast,
+    'scmGraph.historyItemHoverDefaultLabelBackground': colors.tokenPalette.yellow,
     'scmGraph.historyItemRefColor': colors.tokenPalette.magenta,
     'settings.dropdownBackground': colors.background.input,
     'settings.dropdownBorder': colors.border.main,
