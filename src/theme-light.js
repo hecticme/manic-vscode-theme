@@ -52,7 +52,7 @@ export const manicLightTheme = {
     'editor.wordHighlightTextBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.08),
     'editorBracketMatch.background': hexWithAlpha(colors.tokenPalette.blue, 0.25),
     'editorBracketMatch.border': colors.transparent,
-    'editorCursor.foreground': colors.tokenPalette.pink,
+    'editorCursor.foreground': colors.foreground.editor,
     'editorGhostText.border': colors.transparent,
     'editorGhostText.background': colors.transparent,
     'editorGhostText.foreground': hexWithAlpha(colors.tokenPalette.black, 0.6),
