@@ -3,8 +3,8 @@ export const manicColors = {
   accent: '#e0e0e0',
   background: {
     editor: '#2a2a33',
-    sideBar: '#303038',
-    toolbar: '#373742',
+    sideBar: '#30303b',
+    toolbar: '#373745',
     input: '#40404c',
     commandCenter: '#464654',
   },
