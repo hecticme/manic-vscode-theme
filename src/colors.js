@@ -18,7 +18,7 @@ export const manicColors = {
     lighter: '#43434a',
   },
   tokenPalette: {
-    black: '#646b7c',
+    black: '#6b7187',
     green: '#63d98a',
     brightGreen: '#bce87c',
     pink: '#ff9edc',
