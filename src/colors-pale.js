@@ -31,7 +31,7 @@ export const manicColors = {
     teal: '#8be7d1',
     purple: '#cda4f8',
   },
-  change: {
+  scm: {
     added: '#9ed864',
     deleted: '#f25454',
     modified: '#efb968',
