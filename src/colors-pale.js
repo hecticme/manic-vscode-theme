@@ -37,8 +37,8 @@ export const manicColors = {
     info: '#4f8ff2',
   },
   scm: {
-    added: '#9ed864',
-    deleted: '#f25454',
-    modified: '#efb968',
+    added: '#8fcf62',
+    deleted: '#e85a5a',
+    modified: '#f0bf73',
   },
 }
