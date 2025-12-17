@@ -31,6 +31,11 @@ export const manicColors = {
     teal: '#93e9d0',
     purple: '#cfa8f8',
   },
+  diagnostic: {
+    error: '#e24b4b',
+    warning: '#f1c45b',
+    info: '#5a8ff0',
+  },
   scm: {
     added: '#9fd567',
     deleted: '#f25c5c',
