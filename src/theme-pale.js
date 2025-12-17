@@ -212,6 +212,11 @@ export const manicPaleTheme = {
     'welcomePage.tileBackground': colors.border.main,
     'widget.border': colors.border.main,
 
+    // Errors & Warnings
+    'editorError.foreground': colors.diagnostic.error,
+    'editorWarning.foreground': colors.diagnostic.warning,
+    'editorInfo.foreground': colors.diagnostic.info,
+
     // SCM
     'editorGutter.addedBackground': colors.scm.added,
     'editorGutter.deletedBackground': colors.scm.deleted,
