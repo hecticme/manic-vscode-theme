@@ -227,6 +227,7 @@ export const manicTheme = {
     'gitDecoration.addedResourceForeground': colors.scm.added,
     'gitDecoration.deletedResourceForeground': colors.scm.deleted,
     'gitDecoration.modifiedResourceForeground': colors.scm.modified,
+    'git.blame.editorDecorationForeground': colors.scm.blame,
     'scmGraph.foreground1': colors.tokenPalette.blue,
     'scmGraph.foreground2': colors.tokenPalette.pink,
     'scmGraph.foreground3': colors.tokenPalette.brightYellow,

@@ -40,5 +40,6 @@ export const manicColors = {
     added: '#8fcf62',
     deleted: '#e85a5a',
     modified: '#f0bf73',
+    blame: '#a3a8bd',
   },
 }
