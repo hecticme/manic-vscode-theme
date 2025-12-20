@@ -231,6 +231,7 @@ export const manicPaleTheme = {
     'gitDecoration.addedResourceForeground': colors.scm.added,
     'gitDecoration.deletedResourceForeground': colors.scm.deleted,
     'gitDecoration.modifiedResourceForeground': colors.scm.modified,
+    'gitDecoration.untrackedResourceForeground': colors.scm.untracked,
     'editorGutter.addedBackground': colors.scm.added,
     'editorGutter.addedSecondaryBackground': hexWithAlpha(colors.scm.added, 0.35),
     'editorGutter.deletedBackground': colors.scm.deleted,
