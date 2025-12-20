@@ -232,6 +232,7 @@ export const manicTheme = {
     'gitDecoration.deletedResourceForeground': colors.scm.deleted,
     'gitDecoration.modifiedResourceForeground': colors.scm.modified,
     'gitDecoration.untrackedResourceForeground': colors.scm.untracked,
+    'gitDecoration.ignoredResourceForeground': colors.scm.ignored,
     'editorGutter.addedBackground': colors.scm.added,
     'editorGutter.addedSecondaryBackground': hexWithAlpha(colors.scm.added, 0.35),
     'editorGutter.deletedBackground': colors.scm.deleted,
