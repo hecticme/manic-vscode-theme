@@ -39,7 +39,7 @@ export const manicLightColors = {
   },
   scm: {
     added: '#349f55',
-    deleted: '#ad0707',
+    deleted: '#b43c3c',
     modified: '#c07a4a',
     untracked: '#007100',
     ignored: '#8f8f96',
