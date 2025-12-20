@@ -212,6 +212,10 @@ export const manicLightTheme = {
     'welcomePage.tileBackground': colors.border.main,
     'widget.border': colors.border.main,
 
+    // List
+    'list.errorForeground': colors.diagnostic.error,
+    'list.warningForeground': colors.diagnostic.warning,
+
     // Errors & Warnings
     'editorError.foreground': colors.diagnostic.error,
     'editorWarning.foreground': colors.diagnostic.warning,
