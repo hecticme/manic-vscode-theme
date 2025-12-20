@@ -32,7 +32,8 @@ export const manicLightColors = {
     purple: '#d8b5ff',
   },
   diagnostic: {
-    error: '#c82a2a',
+    error: '#c12a2a',
+    secondaryError: '#b01011',
     warning: '#9f5f2e',
     info: '#2f62c8',
   },
