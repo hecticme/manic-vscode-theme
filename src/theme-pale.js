@@ -213,7 +213,7 @@ export const manicPaleTheme = {
     'widget.border': colors.border.main,
 
     // List
-    'list.errorForeground': colors.diagnostic.error,
+    'list.errorForeground': colors.diagnostic.secondaryError,
     'list.warningForeground': colors.diagnostic.warning,
 
     // Errors & Warnings
