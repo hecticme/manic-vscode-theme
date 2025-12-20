@@ -33,7 +33,7 @@ export const manicColors = {
   },
   diagnostic: {
     error: '#e24b4b',
-    warning: '#f1c45b',
+    warning: '#e3ad3b',
     info: '#5a8ff0',
   },
   scm: {
