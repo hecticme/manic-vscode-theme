@@ -34,35 +34,35 @@ export const manicPaleTheme = {
     'dropdown.foreground': colors.foreground.toolbar,
     'dropdown.listBackground': colors.background.sideBar,
     'editor.background': colors.background.editor,
-    'editor.findMatchBackground': hexWithAlpha(colors.tokenPalette.yellow, 0.3),
-    'editor.findMatchHighlightBackground': hexWithAlpha(colors.tokenPalette.yellow, 0.2),
-    'editor.findRangeHighlightBackground': hexWithAlpha(colors.tokenPalette.yellow, 0.1),
+    'editor.findMatchBackground': hexWithAlpha(colors.token.yellow, 0.3),
+    'editor.findMatchHighlightBackground': hexWithAlpha(colors.token.yellow, 0.2),
+    'editor.findRangeHighlightBackground': hexWithAlpha(colors.token.yellow, 0.1),
     'editor.foreground': colors.foreground.editor,
-    'editor.inactiveSelectionBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.125),
+    'editor.inactiveSelectionBackground': hexWithAlpha(colors.token.magenta, 0.125),
     'editor.lineHighlightBackground': hexWithAlpha(colors.accent, 0.05),
-    'editor.selectionBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.2),
-    'editor.selectionHighlightBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.095),
-    'editor.wordHighlightBackground': hexWithAlpha(colors.tokenPalette.blue, 0.125),
-    'editor.wordHighlightStrongBackground': hexWithAlpha(colors.tokenPalette.green, 0.125),
-    'editor.wordHighlightTextBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.08),
-    'editorBracketMatch.background': hexWithAlpha(colors.tokenPalette.blue, 0.25),
+    'editor.selectionBackground': hexWithAlpha(colors.token.magenta, 0.2),
+    'editor.selectionHighlightBackground': hexWithAlpha(colors.token.magenta, 0.095),
+    'editor.wordHighlightBackground': hexWithAlpha(colors.token.blue, 0.125),
+    'editor.wordHighlightStrongBackground': hexWithAlpha(colors.token.green, 0.125),
+    'editor.wordHighlightTextBackground': hexWithAlpha(colors.token.magenta, 0.08),
+    'editorBracketMatch.background': hexWithAlpha(colors.token.blue, 0.25),
     'editorBracketMatch.border': colors.transparent,
     'editorCursor.foreground': colors.foreground.editor,
     'editorGhostText.border': colors.transparent,
     'editorGhostText.background': colors.transparent,
-    'editorGhostText.foreground': hexWithAlpha(colors.tokenPalette.black, 0.6),
+    'editorGhostText.foreground': hexWithAlpha(colors.token.black, 0.6),
     'editorGroup.border': colors.border.main,
     'editorGroupHeader.tabsBackground': colors.background.sideBar,
     'editorGroupHeader.tabsBorder': colors.border.main,
-    'editorIndentGuide.activeBackground1': hexWithAlpha(colors.tokenPalette.black, 0.7),
-    'editorIndentGuide.background1': hexWithAlpha(colors.tokenPalette.black, 0.3),
+    'editorIndentGuide.activeBackground1': hexWithAlpha(colors.token.black, 0.7),
+    'editorIndentGuide.background1': hexWithAlpha(colors.token.black, 0.3),
     'editorLineNumber.activeForeground': colors.foreground.toolbar,
-    'editorLineNumber.foreground': hexWithAlpha(colors.tokenPalette.black, 0.6),
+    'editorLineNumber.foreground': hexWithAlpha(colors.token.black, 0.6),
     'editorOverviewRuler.border': colors.border.main,
     'editorRuler.foreground': hexWithAlpha(colors.border.main, 0.5),
     'editorWhitespace.foreground': hexWithAlpha(colors.foreground.editor, 0.18),
     'editorWidget.border': colors.border.main,
-    'editorLink.activeForeground': colors.tokenPalette.purple,
+    'editorLink.activeForeground': colors.token.purple,
     'editorSuggestWidget.background': colors.background.sideBar,
     'editorSuggestWidget.focusHighlightForeground': colors.foreground.contrast,
     'editorSuggestWidget.selectedBackground': colors.accent,
@@ -107,13 +107,13 @@ export const manicPaleTheme = {
     'panelTitle.inactiveForeground': hexWithAlpha(colors.foreground.toolbar, 0.6),
     'peekView.border': colors.border.lighter,
     'peekViewEditor.background': colors.background.editor,
-    'peekViewEditor.matchHighlightBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.2),
+    'peekViewEditor.matchHighlightBackground': hexWithAlpha(colors.token.magenta, 0.2),
     'peekViewResult.background': colors.background.editor,
-    'peekViewResult.matchHighlightBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.3),
-    'peekViewResult.selectionBackground': hexWithAlpha(colors.tokenPalette.magenta, 0.1),
+    'peekViewResult.matchHighlightBackground': hexWithAlpha(colors.token.magenta, 0.3),
+    'peekViewResult.selectionBackground': hexWithAlpha(colors.token.magenta, 0.1),
     'peekViewTitle.background': colors.background.sideBar,
     'pickerGroup.border': colors.border.main,
-    'pickerGroup.foreground': colors.tokenPalette.blue,
+    'pickerGroup.foreground': colors.token.blue,
     'ports.iconRunningProcessForeground': '#369432',
     'progressBar.background': colors.accent,
     'quickInput.background': colors.background.sideBar,
@@ -121,11 +121,11 @@ export const manicPaleTheme = {
     'quickInputList.focusBackground': colors.accent,
     'quickInputList.focusForeground': colors.foreground.contrast,
     'quickInputList.focusIconForeground': colors.foreground.contrast,
-    'selection.background': hexWithAlpha(colors.tokenPalette.magenta, 0.5),
+    'selection.background': hexWithAlpha(colors.token.magenta, 0.5),
     'settings.dropdownBackground': colors.background.input,
     'settings.dropdownBorder': colors.border.main,
     'settings.headerForeground': colors.foreground.editor,
-    'settings.modifiedItemIndicator': colors.tokenPalette.yellow,
+    'settings.modifiedItemIndicator': colors.token.yellow,
     'sideBar.background': colors.background.sideBar,
     'sideBar.border': colors.border.main,
     'sideBar.foreground': colors.foreground.toolbar,
@@ -147,39 +147,39 @@ export const manicPaleTheme = {
     'statusBarItem.compactHoverBackground': hexWithAlpha(colors.accent, 0.15),
     'statusBarItem.remoteBackground': colors.transparent,
     'statusBarItem.remoteForeground': colors.foreground.toolbar,
-    'symbolIcon.arrayForeground': hexWithAlpha(colors.tokenPalette.black, 0.8),
-    'symbolIcon.booleanForeground': hexWithAlpha(colors.tokenPalette.magenta, 0.8),
-    'symbolIcon.classForeground': hexWithAlpha(colors.tokenPalette.green, 0.8),
-    'symbolIcon.colorForeground': hexWithAlpha(colors.tokenPalette.brightGreen, 0.8),
-    'symbolIcon.constantForeground': hexWithAlpha(colors.tokenPalette.magenta, 0.8),
-    'symbolIcon.constructorForeground': hexWithAlpha(colors.tokenPalette.teal, 0.8),
-    'symbolIcon.enumeratorForeground': hexWithAlpha(colors.tokenPalette.purple, 0.8),
-    'symbolIcon.enumeratorMemberForeground': hexWithAlpha(colors.tokenPalette.purple, 0.8),
-    'symbolIcon.eventForeground': hexWithAlpha(colors.tokenPalette.brightYellow, 0.8),
-    'symbolIcon.fieldForeground': hexWithAlpha(colors.tokenPalette.blue, 0.8),
-    'symbolIcon.fileForeground': hexWithAlpha(colors.tokenPalette.black, 0.8),
-    'symbolIcon.folderForeground': hexWithAlpha(colors.tokenPalette.black, 0.8),
-    'symbolIcon.functionForeground': hexWithAlpha(colors.tokenPalette.brightYellow, 0.8),
-    'symbolIcon.interfaceForeground': hexWithAlpha(colors.tokenPalette.green, 0.8),
-    'symbolIcon.keyForeground': hexWithAlpha(colors.tokenPalette.blue, 0.8),
-    'symbolIcon.keywordForeground': hexWithAlpha(colors.tokenPalette.blue, 0.8),
-    'symbolIcon.methodForeground': hexWithAlpha(colors.tokenPalette.brightYellow, 0.8),
-    'symbolIcon.moduleForeground': hexWithAlpha(colors.tokenPalette.magenta, 0.8),
-    'symbolIcon.namespaceForeground': hexWithAlpha(colors.tokenPalette.teal, 0.8),
-    'symbolIcon.nullForeground': hexWithAlpha(colors.tokenPalette.black, 0.8),
-    'symbolIcon.numberForeground': hexWithAlpha(colors.tokenPalette.magenta, 0.8),
-    'symbolIcon.objectForeground': hexWithAlpha(colors.tokenPalette.black, 0.8),
-    'symbolIcon.operatorForeground': hexWithAlpha(colors.tokenPalette.teal, 0.8),
-    'symbolIcon.packageForeground': hexWithAlpha(colors.tokenPalette.black, 0.8),
-    'symbolIcon.propertyForeground': hexWithAlpha(colors.tokenPalette.blue, 0.8),
-    'symbolIcon.referenceForeground': hexWithAlpha(colors.tokenPalette.blue, 0.8),
-    'symbolIcon.snippetForeground': hexWithAlpha(colors.tokenPalette.yellow, 0.8),
-    'symbolIcon.stringForeground': hexWithAlpha(colors.tokenPalette.brightGreen, 0.8),
-    'symbolIcon.structForeground': hexWithAlpha(colors.tokenPalette.brightYellow, 0.8),
-    'symbolIcon.textForeground': hexWithAlpha(colors.tokenPalette.pink, 0.8),
-    'symbolIcon.typeParameterForeground': hexWithAlpha(colors.tokenPalette.green, 0.8),
-    'symbolIcon.unitForeground': hexWithAlpha(colors.tokenPalette.teal, 0.8),
-    'symbolIcon.variableForeground': hexWithAlpha(colors.tokenPalette.blue, 0.8),
+    'symbolIcon.arrayForeground': hexWithAlpha(colors.token.black, 0.8),
+    'symbolIcon.booleanForeground': hexWithAlpha(colors.token.magenta, 0.8),
+    'symbolIcon.classForeground': hexWithAlpha(colors.token.green, 0.8),
+    'symbolIcon.colorForeground': hexWithAlpha(colors.token.brightGreen, 0.8),
+    'symbolIcon.constantForeground': hexWithAlpha(colors.token.magenta, 0.8),
+    'symbolIcon.constructorForeground': hexWithAlpha(colors.token.teal, 0.8),
+    'symbolIcon.enumeratorForeground': hexWithAlpha(colors.token.purple, 0.8),
+    'symbolIcon.enumeratorMemberForeground': hexWithAlpha(colors.token.purple, 0.8),
+    'symbolIcon.eventForeground': hexWithAlpha(colors.token.brightYellow, 0.8),
+    'symbolIcon.fieldForeground': hexWithAlpha(colors.token.blue, 0.8),
+    'symbolIcon.fileForeground': hexWithAlpha(colors.token.black, 0.8),
+    'symbolIcon.folderForeground': hexWithAlpha(colors.token.black, 0.8),
+    'symbolIcon.functionForeground': hexWithAlpha(colors.token.brightYellow, 0.8),
+    'symbolIcon.interfaceForeground': hexWithAlpha(colors.token.green, 0.8),
+    'symbolIcon.keyForeground': hexWithAlpha(colors.token.blue, 0.8),
+    'symbolIcon.keywordForeground': hexWithAlpha(colors.token.blue, 0.8),
+    'symbolIcon.methodForeground': hexWithAlpha(colors.token.brightYellow, 0.8),
+    'symbolIcon.moduleForeground': hexWithAlpha(colors.token.magenta, 0.8),
+    'symbolIcon.namespaceForeground': hexWithAlpha(colors.token.teal, 0.8),
+    'symbolIcon.nullForeground': hexWithAlpha(colors.token.black, 0.8),
+    'symbolIcon.numberForeground': hexWithAlpha(colors.token.magenta, 0.8),
+    'symbolIcon.objectForeground': hexWithAlpha(colors.token.black, 0.8),
+    'symbolIcon.operatorForeground': hexWithAlpha(colors.token.teal, 0.8),
+    'symbolIcon.packageForeground': hexWithAlpha(colors.token.black, 0.8),
+    'symbolIcon.propertyForeground': hexWithAlpha(colors.token.blue, 0.8),
+    'symbolIcon.referenceForeground': hexWithAlpha(colors.token.blue, 0.8),
+    'symbolIcon.snippetForeground': hexWithAlpha(colors.token.yellow, 0.8),
+    'symbolIcon.stringForeground': hexWithAlpha(colors.token.brightGreen, 0.8),
+    'symbolIcon.structForeground': hexWithAlpha(colors.token.brightYellow, 0.8),
+    'symbolIcon.textForeground': hexWithAlpha(colors.token.pink, 0.8),
+    'symbolIcon.typeParameterForeground': hexWithAlpha(colors.token.green, 0.8),
+    'symbolIcon.unitForeground': hexWithAlpha(colors.token.teal, 0.8),
+    'symbolIcon.variableForeground': hexWithAlpha(colors.token.blue, 0.8),
     'tab.activeBackground': colors.background.editor,
     'tab.activeBorder': colors.background.editor,
     'tab.activeBorderTop': colors.transparent,
@@ -198,8 +198,8 @@ export const manicPaleTheme = {
     'textBlockQuote.background': colors.border.main,
     'textBlockQuote.border': '#616161',
     'textCodeBlock.background': colors.border.main,
-    'textLink.activeForeground': colors.tokenPalette.pink,
-    'textLink.foreground': colors.tokenPalette.pink,
+    'textLink.activeForeground': colors.token.pink,
+    'textLink.foreground': colors.token.pink,
     'textPreformat.background': '#3c3c3c',
     'textPreformat.foreground': '#d0d0d0',
     'textSeparator.foreground': '#21262d',
@@ -244,37 +244,37 @@ export const manicPaleTheme = {
     'editorGutter.modifiedBackground': colors.scm.modified,
     'editorGutter.modifiedSecondaryBackground': hexWithAlpha(colors.scm.modified, 0.35),
     'git.blame.editorDecorationForeground': colors.scm.blame,
-    'scmGraph.foreground1': colors.tokenPalette.blue,
-    'scmGraph.foreground2': colors.tokenPalette.pink,
-    'scmGraph.foreground3': colors.tokenPalette.brightYellow,
-    'scmGraph.foreground4': colors.tokenPalette.brightGreen,
-    'scmGraph.foreground5': colors.tokenPalette.brightRed,
+    'scmGraph.foreground1': colors.token.blue,
+    'scmGraph.foreground2': colors.token.pink,
+    'scmGraph.foreground3': colors.token.brightYellow,
+    'scmGraph.foreground4': colors.token.brightGreen,
+    'scmGraph.foreground5': colors.token.brightRed,
     'scmGraph.historyItemHoverLabelForeground': colors.foreground.contrast,
-    'scmGraph.historyItemRefColor': colors.tokenPalette.purple,
-    'scmGraph.historyItemRemoteRefColor': colors.tokenPalette.teal,
-    'scmGraph.historyItemBaseRefColor': colors.tokenPalette.green,
+    'scmGraph.historyItemRefColor': colors.token.purple,
+    'scmGraph.historyItemRemoteRefColor': colors.token.teal,
+    'scmGraph.historyItemBaseRefColor': colors.token.green,
     'scmGraph.historyItemHoverDefaultLabelForeground': colors.foreground.contrast,
-    'scmGraph.historyItemHoverDefaultLabelBackground': colors.tokenPalette.yellow,
-    'scmGraph.historyItemRefColor': colors.tokenPalette.magenta,
+    'scmGraph.historyItemHoverDefaultLabelBackground': colors.token.yellow,
+    'scmGraph.historyItemRefColor': colors.token.magenta,
 
     // Terminal
     'terminal.foreground': colors.foreground.toolbar,
-    'terminal.ansiBlack': colors.tokenPalette.black,
-    'terminal.ansiBlue': colors.tokenPalette.blue,
-    'terminal.ansiBrightBlack': colors.tokenPalette.black,
-    'terminal.ansiBrightBlue': colors.tokenPalette.blue,
-    'terminal.ansiBrightCyan': colors.tokenPalette.teal,
-    'terminal.ansiBrightGreen': colors.tokenPalette.brightGreen,
-    'terminal.ansiBrightMagenta': colors.tokenPalette.magenta,
-    'terminal.ansiBrightRed': colors.tokenPalette.brightRed,
+    'terminal.ansiBlack': colors.token.black,
+    'terminal.ansiBlue': colors.token.blue,
+    'terminal.ansiBrightBlack': colors.token.black,
+    'terminal.ansiBrightBlue': colors.token.blue,
+    'terminal.ansiBrightCyan': colors.token.teal,
+    'terminal.ansiBrightGreen': colors.token.brightGreen,
+    'terminal.ansiBrightMagenta': colors.token.magenta,
+    'terminal.ansiBrightRed': colors.token.brightRed,
     'terminal.ansiBrightWhite': colors.foreground.editor,
-    'terminal.ansiBrightYellow': colors.tokenPalette.brightYellow,
-    'terminal.ansiCyan': colors.tokenPalette.teal,
-    'terminal.ansiGreen': colors.tokenPalette.brightGreen,
-    'terminal.ansiMagenta': colors.tokenPalette.magenta,
-    'terminal.ansiRed': colors.tokenPalette.brightRed,
+    'terminal.ansiBrightYellow': colors.token.brightYellow,
+    'terminal.ansiCyan': colors.token.teal,
+    'terminal.ansiGreen': colors.token.brightGreen,
+    'terminal.ansiMagenta': colors.token.magenta,
+    'terminal.ansiRed': colors.token.brightRed,
     'terminal.ansiWhite': colors.foreground.editor,
-    'terminal.ansiYellow': colors.tokenPalette.brightYellow,
+    'terminal.ansiYellow': colors.token.brightYellow,
     'terminal.inactiveSelectionBackground': '#3a3d41',
     'terminal.tab.activeBorder': colors.accent,
   },
@@ -307,7 +307,7 @@ export const manicPaleTheme = {
         'comment',
       ],
       settings: {
-        foreground: colors.tokenPalette.black,
+        foreground: colors.token.black,
       },
     },
     {
@@ -324,7 +324,7 @@ export const manicPaleTheme = {
     {
       scope: 'constant.language',
       settings: {
-        foreground: colors.tokenPalette.magenta,
+        foreground: colors.token.magenta,
       },
     },
     {
@@ -335,7 +335,7 @@ export const manicPaleTheme = {
         'keyword.operator.minus.exponent',
       ],
       settings: {
-        foreground: colors.tokenPalette.magenta,
+        foreground: colors.token.magenta,
       },
     },
     {
@@ -347,7 +347,7 @@ export const manicPaleTheme = {
     {
       scope: 'entity.name.tag',
       settings: {
-        foreground: colors.tokenPalette.brightRed,
+        foreground: colors.token.brightRed,
       },
     },
     {
@@ -356,13 +356,13 @@ export const manicPaleTheme = {
         'entity.name.tag.less',
       ],
       settings: {
-        foreground: colors.tokenPalette.yellow,
+        foreground: colors.token.yellow,
       },
     },
     {
       scope: 'entity.other.attribute-name',
       settings: {
-        foreground: colors.tokenPalette.yellow,
+        foreground: colors.token.yellow,
       },
     },
     {
@@ -378,13 +378,13 @@ export const manicPaleTheme = {
         'entity.other.attribute-name.scss',
       ],
       settings: {
-        foreground: colors.tokenPalette.yellow,
+        foreground: colors.token.yellow,
       },
     },
     {
       scope: 'invalid',
       settings: {
-        foreground: colors.tokenPalette.red,
+        foreground: colors.token.red,
       },
     },
     {
@@ -396,14 +396,14 @@ export const manicPaleTheme = {
     {
       scope: 'markup.bold',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
         fontStyle: 'bold',
       },
     },
     {
       scope: 'markup.heading',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
         fontStyle: 'bold',
       },
     },
@@ -416,19 +416,19 @@ export const manicPaleTheme = {
     {
       scope: 'markup.inserted',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
       scope: 'markup.deleted',
       settings: {
-        foreground: colors.tokenPalette.brightGreen,
+        foreground: colors.token.brightGreen,
       },
     },
     {
       scope: 'markup.changed',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
@@ -446,7 +446,7 @@ export const manicPaleTheme = {
     {
       scope: 'markup.inline.raw',
       settings: {
-        foreground: colors.tokenPalette.brightGreen,
+        foreground: colors.token.brightGreen,
       },
     },
     {
@@ -455,43 +455,43 @@ export const manicPaleTheme = {
         'entity.name.function.preprocessor',
       ],
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
       scope: 'meta.preprocessor.string',
       settings: {
-        foreground: colors.tokenPalette.brightGreen,
+        foreground: colors.token.brightGreen,
       },
     },
     {
       scope: 'meta.preprocessor.numeric',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
       scope: 'meta.structure.dictionary.key.python',
       settings: {
-        foreground: colors.tokenPalette.blue,
+        foreground: colors.token.blue,
       },
     },
     {
       scope: 'meta.diff.header',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
       scope: 'storage',
       settings: {
-        foreground: colors.tokenPalette.brightRed,
+        foreground: colors.token.brightRed,
       },
     },
     {
       scope: 'storage.type',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
         fontStyle: '',
       },
     },
@@ -501,7 +501,7 @@ export const manicPaleTheme = {
         'keyword.operator.noexcept',
       ],
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
@@ -510,25 +510,25 @@ export const manicPaleTheme = {
         'meta.embedded.assembly',
       ],
       settings: {
-        foreground: colors.tokenPalette.brightGreen,
+        foreground: colors.token.brightGreen,
       },
     },
     {
       scope: 'string.tag',
       settings: {
-        foreground: colors.tokenPalette.brightGreen,
+        foreground: colors.token.brightGreen,
       },
     },
     {
       scope: 'string.value',
       settings: {
-        foreground: colors.tokenPalette.brightGreen,
+        foreground: colors.token.brightGreen,
       },
     },
     {
       scope: 'string.regexp',
       settings: {
-        foreground: colors.tokenPalette.brightRed,
+        foreground: colors.token.brightRed,
       },
     },
     {
@@ -538,7 +538,7 @@ export const manicPaleTheme = {
         'punctuation.section.embedded',
       ],
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
@@ -557,19 +557,19 @@ export const manicPaleTheme = {
         'source.coffee.embedded',
       ],
       settings: {
-        foreground: colors.tokenPalette.blue,
+        foreground: colors.token.blue,
       },
     },
     {
       scope: 'keyword',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
       scope: 'keyword.control',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
@@ -592,13 +592,13 @@ export const manicPaleTheme = {
         'keyword.operator.wordlike',
       ],
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
       scope: 'keyword.other.unit',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
@@ -607,19 +607,19 @@ export const manicPaleTheme = {
         'punctuation.section.embedded.end.php',
       ],
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
       scope: 'support.function.git-rebase',
       settings: {
-        foreground: colors.tokenPalette.blue,
+        foreground: colors.token.blue,
       },
     },
     {
       scope: 'constant.sha.git-rebase',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
@@ -635,7 +635,7 @@ export const manicPaleTheme = {
     {
       scope: 'variable.language',
       settings: {
-        foreground: colors.tokenPalette.teal,
+        foreground: colors.token.teal,
       },
     },
     {
@@ -647,7 +647,7 @@ export const manicPaleTheme = {
         'entity.name.operator.custom-literal',
       ],
       settings: {
-        foreground: colors.tokenPalette.brightYellow,
+        foreground: colors.token.brightYellow,
       },
     },
     {
@@ -686,7 +686,7 @@ export const manicPaleTheme = {
         'storage.type.primitive.groovy',
       ],
       settings: {
-        foreground: colors.tokenPalette.green,
+        foreground: colors.token.green,
       },
     },
     {
@@ -699,7 +699,7 @@ export const manicPaleTheme = {
         'entity.other.inherited-class',
       ],
       settings: {
-        foreground: colors.tokenPalette.green,
+        foreground: colors.token.green,
       },
     },
     {
@@ -713,7 +713,7 @@ export const manicPaleTheme = {
         'entity.name.operator',
       ],
       settings: {
-        foreground: colors.tokenPalette.pink,
+        foreground: colors.token.pink,
         fontStyle: '',
       },
     },
@@ -726,7 +726,7 @@ export const manicPaleTheme = {
         'constant.other.placeholder',
       ],
       settings: {
-        foreground: colors.tokenPalette.blue,
+        foreground: colors.token.blue,
       },
     },
     {
@@ -735,7 +735,7 @@ export const manicPaleTheme = {
         'variable.other.enummember',
       ],
       settings: {
-        foreground: colors.tokenPalette.magenta,
+        foreground: colors.token.magenta,
       },
     },
     {
@@ -743,7 +743,7 @@ export const manicPaleTheme = {
         'meta.object-literal.key',
       ],
       settings: {
-        foreground: colors.tokenPalette.blue,
+        foreground: colors.token.blue,
       },
     },
     {
@@ -757,7 +757,7 @@ export const manicPaleTheme = {
         'support.constant.color',
       ],
       settings: {
-        foreground: colors.tokenPalette.brightGreen,
+        foreground: colors.token.brightGreen,
       },
     },
     {
@@ -771,7 +771,7 @@ export const manicPaleTheme = {
         'support.other.parenthesis.regexp',
       ],
       settings: {
-        foreground: colors.tokenPalette.brightGreen,
+        foreground: colors.token.brightGreen,
       },
     },
     {
@@ -782,7 +782,7 @@ export const manicPaleTheme = {
         'constant.character.set.regexp',
       ],
       settings: {
-        foreground: colors.tokenPalette.brightRed,
+        foreground: colors.token.brightRed,
       },
     },
     {
@@ -791,13 +791,13 @@ export const manicPaleTheme = {
         'keyword.control.anchor.regexp',
       ],
       settings: {
-        foreground: colors.tokenPalette.green,
+        foreground: colors.token.green,
       },
     },
     {
       scope: 'keyword.operator.quantifier.regexp',
       settings: {
-        foreground: colors.tokenPalette.yellow,
+        foreground: colors.token.yellow,
       },
     },
     {
@@ -806,13 +806,13 @@ export const manicPaleTheme = {
         'constant.other.option',
       ],
       settings: {
-        foreground: colors.tokenPalette.magenta,
+        foreground: colors.token.magenta,
       },
     },
     {
       scope: 'constant.character.escape',
       settings: {
-        foreground: colors.tokenPalette.yellow,
+        foreground: colors.token.yellow,
       },
     },
     {
@@ -836,7 +836,7 @@ export const manicPaleTheme = {
     {
       scope: 'token.error-token',
       settings: {
-        foreground: colors.tokenPalette.red,
+        foreground: colors.token.red,
       },
     },
     {
