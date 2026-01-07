@@ -261,7 +261,7 @@ export const manicTheme = {
     'terminal.foreground': colors.foreground.toolbar,
     'terminal.ansiBlack': colors.token.black,
     'terminal.ansiBlue': colors.token.blue,
-    'terminal.ansiBrightBlack': colors.token.black,
+    'terminal.ansiBrightBlack': colors.token.brightBlack,
     'terminal.ansiBrightBlue': colors.token.blue,
     'terminal.ansiBrightCyan': colors.token.teal,
     'terminal.ansiBrightGreen': colors.token.brightGreen,
@@ -307,7 +307,7 @@ export const manicTheme = {
         'comment',
       ],
       settings: {
-        foreground: colors.token.black,
+        foreground: colors.token.brightBlack,
       },
     },
     {
