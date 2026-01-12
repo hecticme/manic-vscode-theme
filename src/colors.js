@@ -26,7 +26,7 @@ export const manicColors = {
     red: '#f25c5c',
     brightRed: '#e16975',
     yellow: '#efbb6e',
-    brightYellow: '#f5d8a0',
+    brightYellow: '#eddc8b',
     blue: '#9fbdf0',
     magenta: '#9f98ee',
     teal: '#93e9d0',
