@@ -2,9 +2,9 @@ export const manicColors = {
   transparent: '#0000',
   accent: '#e2e2e2',
   background: {
-    editor: '#202024',
-    sideBar: '#25252a',
-    toolbar: '#2a2a2f',
+    editor: '#222229',
+    sideBar: '#1d1d22',
+    toolbar: '#2c2c37',
     input: '#2e2e33',
     commandCenter: '#34343a',
   },
