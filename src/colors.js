@@ -3,7 +3,7 @@ export const manicColors = {
   accent: '#e2e2e2',
   background: {
     editor: '#222229',
-    sideBar: '#1d1d22',
+    sideBar: '#1b1b22',
     toolbar: '#2c2c37',
     input: '#2e2e33',
     commandCenter: '#34343a',
