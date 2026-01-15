@@ -2,11 +2,11 @@ export const manicColors = {
   transparent: '#0000',
   accent: '#e2e2e2',
   background: {
-    editor: '#222229',
-    sideBar: '#1b1b22',
-    toolbar: '#2c2c37',
-    input: '#2e2e33',
-    commandCenter: '#34343a',
+    editor: '#1a1a1f',
+    sideBar: '#14141a',
+    toolbar: '#23232c',
+    input: '#242428',
+    commandCenter: '#303038',
   },
   foreground: {
     editor: '#cccecb',
