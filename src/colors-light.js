@@ -29,7 +29,7 @@ export const manicLightColors = {
     blue: '#2648a8',
     magenta: '#5a4eca',
     teal: '#146a89',
-    purple: '#d8b5ff',
+    purple: '#9b6cff',
   },
   diagnostic: {
     error: '#c12a2a',
