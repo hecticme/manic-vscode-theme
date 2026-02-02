@@ -5,8 +5,8 @@ export const manicColors = {
     editor: '#262630',
     sideBar: '#2e2e3a',
     toolbar: '#3a3a4a',
-    input: '#40404c',
-    commandCenter: '#464654',
+    input: '#3c3c48',
+    commandCenter: '#4c4c5c',
   },
   foreground: {
     editor: '#cecfcd',
