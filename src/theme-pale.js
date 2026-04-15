@@ -261,7 +261,7 @@ export const manicPaleTheme = {
     'scmGraph.historyItemRemoteRefColor': colors.token.teal,
     'scmGraph.historyItemBaseRefColor': colors.token.green,
     'scmGraph.historyItemHoverDefaultLabelForeground': colors.foreground.contrast,
-    'scmGraph.historyItemHoverDefaultLabelBackground': colors.token.yellow,
+    'scmGraph.historyItemHoverDefaultLabelBackground': colors.scm.defaultBadgeBackground,
     'scmGraph.historyItemRefColor': colors.token.magenta,
 
     // Terminal
