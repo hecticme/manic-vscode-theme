@@ -45,5 +45,8 @@ export const manicColors = {
     untracked: '#73c991',
     ignored: '#80808f',
     blame: '#a3a8bd',
+    // VSCode mixes editor foreground with scm badge foreground so there might be contrast issue.
+    // See -> https://github.com/microsoft/vscode/issues/308796
+    defaultBadgeBackground: '#70757a',
   },
 }
